@@ -54,6 +54,8 @@ The scaffold split has zero scaffold overlap but 24 shared source documents. Ass
 
 ## Figures and evidence
 
+[Negative-fold diagnosis](qsar/docs/NEGATIVE_FOLDS.md) examines folds 1 and 9 using fold-local descriptor selection, PCA, applicability-domain distances and nearest training analogs. Respectively, 92.23% and 96.63% of their squared error occurs **inside AD**. Seven salicylanilides account for 87.33% of fold 9 squared error; three scaffold groups account for 82.69% in fold 1. This post-hoc report identifies limitations without changing the frozen model or its scores.
+
 ![Held-out predictions ](qsar/results/reference/test_predictions.png)
 
 ![SHAP ](qsar/results/reference/shap_beeswarm.png)

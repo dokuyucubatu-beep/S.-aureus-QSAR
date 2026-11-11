@@ -1,0 +1,27 @@
+{
+  "scope": "Post-hoc diagnostic of archived 10-fold training CV; no test labels, model selection or redefinition of AD",
+  "negative_folds_one_based": [
+    1,
+    9
+  ],
+  "input_sha256": {
+    "data/curated/compounds.csv": "479e796ce9d875dcb000c1f92604b556bd9644388882f82dd19b758d5d8b427a",
+    "results/reference/cv_predictions.csv": "e6a1d70e86478931d155651b7f74e1dac8255636e36a6b9f5900e84e037b4776",
+    "results/reference/descriptor_matrix.npz": "892afc4935fb9f1655f50a3d1f6c6b1f74b3c6edb1267da2e07735e1c280edde",
+    "results/reference/protocol.json": "181c36ecf53efe5a1f03c98a712600293d55bad4fbc41f5c4908c92531f7de94"
+  },
+  "output_sha256": {
+    "compound_diagnostics.csv": "d1cca148526272ef3462a22622030a0118f2058341ee2c24a72d029876760a2b",
+    "fold_1_diagnostic.png": "eea2309f125924a53aa82fac7c7789af58f02956a8cb93bd0f4199379e3209c5",
+    "fold_1_pca_loadings.csv": "5b9cf67942803aa9feba16be3ffc16567931127eaef6300ac3df5c3097e34928",
+    "fold_1_scaffolds_and_analogs.png": "8f70e2f13f36801276029f9648be7e70b93f59735e3b92ae509b6c6647e44781",
+    "fold_9_diagnostic.png": "9da3fa109967c7569c250bf95039e7783c2becc1f4e94d9750bf87bec0cc97ce",
+    "fold_9_pca_loadings.csv": "52b2c9cce559aa09d1197adca113989cff34c44803da77cc5974da916651e9ba",
+    "fold_9_scaffolds_and_analogs.png": "d496ec97bec208ee8afc890d2afb8f146bf307c6b599414c70dc00fb397f139d",
+    "fold_audit.json": "f333c1b6e9d190b2bc9a1c64eb04e1245f9a06eccd93210fdd8e794be2e37ba9",
+    "fold_summary.csv": "1da0f6bb260428ff3ba143adbf36de904d4d07cfcfeaf2666244b062ba6663aa",
+    "negative_fold_pca_coordinates.csv": "6b49b1902764d7b8e4a827ce75bb4c31c544faba3e7bde485b1a3086d42610f1",
+    "scaffold_diagnostics.csv": "52374acffaed07ce16eed3729355a7188ca1bb335526a9f47a8332487ed04872"
+  },
+  "analysis_source_sha256": "b8cb45b97adc2c2688fc2d16f2c3100a22817a161920523fe98e5dbba9dd1a85"
+}
