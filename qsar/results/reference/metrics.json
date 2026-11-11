@@ -1,0 +1,110 @@
+{
+  "endpoint": "pMIC = -log10(MIC in mol/L); S. aureus ATCC 29213; explicit 24 h microdilution",
+  "model": "DeepChem SklearnModel wrapping fixed RandomForest descriptor pipeline",
+  "molecules": 542,
+  "train_molecules": 439,
+  "test_molecules": 103,
+  "initial_descriptors": 217,
+  "selected_descriptors": 15,
+  "molecules_per_descriptor_all": 36.13333333333333,
+  "molecules_per_descriptor_train": 29.266666666666666,
+  "test": {
+    "r2": 0.6796283334837298,
+    "rmse": 0.6107275454905783,
+    "mae": 0.4449046003955743
+  },
+  "training": {
+    "r2": 0.9269502168676641,
+    "rmse": 0.3705024236523879,
+    "mae": 0.268342960981685
+  },
+  "baseline_test": {
+    "training_mean": {
+      "r2": -0.3251034414534828,
+      "rmse": 1.2420679316252983,
+      "mae": 1.0434403063979765
+    },
+    "ridge_alpha10": {
+      "r2": 0.3924778446383036,
+      "rmse": 0.8410106944917456,
+      "mae": 0.6763458656563126
+    }
+  },
+  "five_fold_cv_Q2": 0.6302717177025596,
+  "ten_fold_cv_r2_mean": 0.27816691929163534,
+  "ten_fold_cv_r2_sample_sd": 0.4051345863565715,
+  "ten_fold_scores": [
+    -0.32920366939496315,
+    0.4248433867322129,
+    0.2668740786829724,
+    0.7409521944942699,
+    0.5559794452244934,
+    0.3063490122611138,
+    0.1245580145313453,
+    0.6599782360133712,
+    -0.4779580805703403,
+    0.5092965749418781
+  ],
+  "bootstrap_test_r2": {
+    "replicates": 1000,
+    "valid_replicates": 1000,
+    "unit": "held-out scaffold clusters",
+    "ci95": [
+      0.444021834669502,
+      0.7886335632871113
+    ],
+    "scope": "Fixed fitted model; conditional on held-out compounds, not training-set uncertainty"
+  },
+  "golbraikh_tropsha": {
+    "defined": true,
+    "pearson_r": 0.8286875930453378,
+    "pearson_r_squared": 0.6867231268672753,
+    "k": 0.9823030764353886,
+    "k_prime": 0.9990768864788518,
+    "r0_squared": 0.6850213375240959,
+    "r0_prime_squared": 0.5024486612448356,
+    "relative_difference": 0.0024781302341494427,
+    "relative_difference_prime": 0.268338808484682,
+    "absolute_r0_difference": 0.18257267627926033,
+    "prespecified_diagnostic_pass": true
+  },
+  "y_scrambling": {
+    "replicates": 100,
+    "actual_q2": 0.6302717177025596,
+    "null_q2_mean": -0.1263627165871602,
+    "null_q2_sd": 0.05037992497675517,
+    "null_q2_max": -0.00032421191219977885,
+    "permutation_p": 0.009900990099009901,
+    "training_pearson_r": 0.9655373382263824,
+    "mean_scrambled_training_r": 0.7737988385034638,
+    "cR2p": 0.5575906728529183,
+    "cR2p_above_0_5": true
+  },
+  "AD": {
+    "rule": "leverage <= 3(p+1)/n AND nearest training ECFP4 Tanimoto >= training LOO 5th percentile",
+    "leverage_threshold": 0.10933940774487472,
+    "similarity_threshold": 0.38863636363636367,
+    "test_inside_n": 88,
+    "test_inside_percent": 85.43689320388349,
+    "in_domain_test_metrics": {
+      "r2": 0.7421737374417317,
+      "rmse": 0.5744716231991679,
+      "mae": 0.4236494262647172
+    }
+  },
+  "split": {
+    "type": "fixed scaffold-group holdout; CV scaffold grouped; preprocessing refitted in each fold",
+    "scaffold_overlap": 0,
+    "train_scaffolds": 146,
+    "test_scaffolds": 37,
+    "train_documents": 55,
+    "test_documents": 27,
+    "shared_documents": 24
+  },
+  "limitations": [
+    "Cross-publication assay details not fully harmonized",
+    "Holdout is not an independent laboratory or study test",
+    "Exact MIC-only filtering excludes censored low-activity compounds",
+    "No regulatory acceptance or biochemical mechanism claimed"
+  ]
+}

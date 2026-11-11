@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv*/
+build/
+qsar/results/rerun*/
+qsar/results/reference/deepchem/
+predictions.csv

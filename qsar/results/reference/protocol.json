@@ -1,0 +1,22 @@
+{
+  "endpoint": "pMIC = -log10(MIC in mol/L); S. aureus ATCC 29213; explicit 24 h microdilution",
+  "seed": 2026,
+  "test_scaffold_fraction": 0.2,
+  "max_descriptors": 15,
+  "max_missing_fraction": 0.05,
+  "correlation_cutoff": 0.9,
+  "min_molecules_per_descriptor": 10,
+  "rf": {
+    "n_estimators": 128,
+    "max_depth": 12,
+    "min_samples_leaf": 3,
+    "max_features": 0.7
+  },
+  "bootstrap_replicates": 1000,
+  "scrambling_replicates": 100,
+  "scrambling_workers": 3,
+  "replicate_max_range_log10": 1.0,
+  "ad_similarity_quantile": 0.05,
+  "shap_background_size": 100,
+  "model_selection": "Primary RandomForest fixed before evaluation; no hyperparameter search; Ridge(alpha=10) and training-mean baselines are comparators only"
+}

@@ -1,0 +1,42 @@
+{
+  "initial": 217,
+  "after_missingness": 217,
+  "after_variance": 197,
+  "after_correlation": 128,
+  "selected": 15,
+  "fit_n": 439,
+  "selected_descriptors": [
+    "NumAliphaticRings",
+    "fr_pyridine",
+    "MaxAbsEStateIndex",
+    "BCUT2D_LOGPHI",
+    "RingCount",
+    "NumSaturatedHeterocycles",
+    "BCUT2D_CHGHI",
+    "NumHeterocycles",
+    "NumAliphaticCarbocycles",
+    "SPS",
+    "fr_methoxy",
+    "NumAliphaticHeterocycles",
+    "FractionCSP3",
+    "BCUT2D_MWLOW",
+    "BCUT2D_CHGLO"
+  ],
+  "feature_f_scores": [
+    131.05499456441507,
+    126.24317730369123,
+    110.57946797380845,
+    110.25682993923273,
+    97.2194937807196,
+    92.43181221660203,
+    78.48868545716786,
+    67.5532885865543,
+    60.99627744775297,
+    59.71172471104983,
+    57.94990967779639,
+    51.61191641658501,
+    42.52049603899549,
+    40.23683966837579,
+    37.97620139599837
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "python": "3.11.16",
+  "versions": {
+    "deepchem": "2.8.0",
+    "rdkit": "2025.9.6",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "shap": "0.51.0",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.2"
+  },
+  "input_sha256": {
+    "config.json": "9cfcd55596ef9bb48328a530b1e7998568a215ed86de2a28eca1f74993bd5beb",
+    "data/curated/compounds.csv": "479e796ce9d875dcb000c1f92604b556bd9644388882f82dd19b758d5d8b427a"
+  },
+  "source_sha256": {
+    "curate.py": "178785c6b39f4f04c14981bb983b3ff5083fe7b8b7487fdbe2fbb9609cbf6494",
+    "fetch_data.py": "ed30b15b13469ed9dc9dc6a5c5f4a3c9f5deb6273fde43d79080204367817edb",
+    "modeling.py": "eb252b3628df77d03e6ae1d756e08ceb6c619cfb07653754892ac7cc859af770",
+    "predict.py": "f8ba0a6315f21d6beac968fcfab98778f15a86c4a874ed33da4658299b38bd43",
+    "train.py": "85a2336f161b61a1e11a3301f73fbe77d70e2c9daad9019f832a8ce0e2839fe7",
+    "validate.py": "ff03c8ce4e06abf6c65683969ea26fcb852c063db271d34cb91b26544955434f"
+  },
+  "output_sha256": {
+    "applicability_domain.png": "a2734f1d476e141c77e9dc4fb7b980d84db5dbb1e1c8cb6a59d5758ff2332c89",
+    "bootstrap_r2.csv": "f280b745846bf6de109ec28653fd67dadaf6220ec291aea0754ec8e4f403b66d",
+    "cv_predictions.csv": "e6a1d70e86478931d155651b7f74e1dac8255636e36a6b9f5900e84e037b4776",
+    "cv_selection_audit.json": "6e8f0f8e6460fe5d42d957dfee390cc417593fa3082307da49460d462c5f64e8",
+    "descriptor_matrix.npz": "892afc4935fb9f1655f50a3d1f6c6b1f74b3c6edb1267da2e07735e1c280edde",
+    "descriptor_names.json": "91b4d18c10326b899c84b88e4c0b353cd8ce0b5d3fbc76116839070452cb79f1",
+    "metrics.json": "d1c0b018012ace2676199ecd1ec6143c26f1b99a3adc6058c1bda5f0425b4cf4",
+    "model.joblib": "d16196ba87b738fb926a77b38e0a75e3436304a00c8119f1d7b3541e150f4e9c",
+    "protocol.json": "181c36ecf53efe5a1f03c98a712600293d55bad4fbc41f5c4908c92531f7de94",
+    "selection_audit.json": "edfcf0d681ca30097f9e27ebe3568a2be00199ecdea101284f8ad94ce2cecbf3",
+    "shap_audit.json": "a32e5396a5f59291cff71089f1b330990814167ceac413ad81a9eb2e20349c19",
+    "shap_bar.png": "02707cf2f5e0e50064f3ce2b730fdda691f218f37debf14a795398217958ac37",
+    "shap_beeswarm.png": "4c122427fa3ae46b1043a109e3dc99fc3cacfec805ba4e993526b6583bbe8ecb",
+    "shap_importance.csv": "fdbb216021d7c362122df65aca43cdf00a2b58fb526375678bc0673deb565c45",
+    "shap_values.npz": "5297c57eccdafe1e03a6596d0d3f1a4ac61421c5fcfce3ae7966e541cc57935a",
+    "test_predictions.csv": "c3e3c3e4e5c11ef9cde417d3ca4171823ce54394be1c6acaca5c70a8aaad77a4",
+    "test_predictions.png": "b03ce5bdbe2df8e396747d6a199dd2ae7a16c5e63d90c1ee7373cd458dbd78ae",
+    "y_scrambling.csv": "174ee3fed5c490845d84a5d8e28af9346efe5c3db8bc0962e1be6445fbf0bd89",
+    "y_scrambling.png": "b3384027306da6e8262a7a62e658a4e7d0f12c221562fc393fee82a7d3ece7b8"
+  }
+}

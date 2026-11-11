@@ -1,0 +1,9 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+qsar/data/** -text
+qsar/results/** -text
+*.joblib binary
+*.npz binary
+*.gz binary
+*.png binary

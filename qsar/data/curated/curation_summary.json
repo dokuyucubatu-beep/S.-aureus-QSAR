@@ -1,0 +1,23 @@
+{
+  "raw_activities": 989,
+  "accepted_before_aggregation": 604,
+  "curated_compounds": 542,
+  "train_n": 439,
+  "test_n": 103,
+  "scaffolds": 183,
+  "train_scaffolds": 146,
+  "test_scaffolds": 37,
+  "rejection_counts": {
+    "not_exact_MIC": 216,
+    "salt_or_mixture": 111,
+    "assay_not_selected": 57,
+    "replicate_disagreement_over_1_log": 12,
+    "validity_flag": 1
+  },
+  "endpoint": "pMIC = -log10(MIC in mol/L); S. aureus ATCC 29213; explicit 24 h microdilution",
+  "pMIC_range": [
+    1.953941990196954,
+    8.63397819983102
+  ],
+  "assay_selection_not_full_protocol_harmonization": true
+}

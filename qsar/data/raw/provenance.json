@@ -1,0 +1,29 @@
+{
+  "retrieved_utc": "2026-11-11T16:01:49.788663+00:00",
+  "chembl_status": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "urls": [
+    "https://www.ebi.ac.uk/chembl/api/data/assay.json?assay_organism=Staphylococcus+aureus&description__icontains=29213&order_by=assay_chembl_id&limit=1000",
+    "https://www.ebi.ac.uk/chembl/api/data/assay.json?limit=1000&offset=1000&assay_organism=Staphylococcus+aureus&description__icontains=29213&order_by=assay_chembl_id",
+    "https://www.ebi.ac.uk/chembl/api/data/assay.json?limit=1000&offset=2000&assay_organism=Staphylococcus+aureus&description__icontains=29213&order_by=assay_chembl_id",
+    "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id__in=CHEMBL1008662%2CCHEMBL1037918%2CCHEMBL1073954%2CCHEMBL1100252%2CCHEMBL1116266%2CCHEMBL1175673%2CCHEMBL1259979%2CCHEMBL1775348%2CCHEMBL1809969%2CCHEMBL1828008%2CCHEMBL2060103%2CCHEMBL2060966%2CCHEMBL2154780%2CCHEMBL2210479%2CCHEMBL2329613%2CCHEMBL2379387%2CCHEMBL2389588%2CCHEMBL2412059%2CCHEMBL2432159%2CCHEMBL2438593&standard_type=MIC&order_by=activity_id&limit=1000",
+    "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id__in=CHEMBL3062512%2CCHEMBL3101371%2CCHEMBL3102319%2CCHEMBL3102321%2CCHEMBL3119870%2CCHEMBL3132168%2CCHEMBL3373165%2CCHEMBL3377468%2CCHEMBL3582915%2CCHEMBL3614230%2CCHEMBL3879454%2CCHEMBL3879455%2CCHEMBL4003972%2CCHEMBL4013390%2CCHEMBL4026379%2CCHEMBL4041324%2CCHEMBL4275031%2CCHEMBL4340478%2CCHEMBL4606408%2CCHEMBL4666311&standard_type=MIC&order_by=activity_id&limit=1000",
+    "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id__in=CHEMBL4672951%2CCHEMBL4679045%2CCHEMBL4684751%2CCHEMBL4687562%2CCHEMBL4703294%2CCHEMBL4768215%2CCHEMBL4812989%2CCHEMBL4818562%2CCHEMBL4820335%2CCHEMBL4826870%2CCHEMBL5122513%2CCHEMBL5124835%2CCHEMBL5317457%2CCHEMBL5326797%2CCHEMBL5344618%2CCHEMBL5359550%2CCHEMBL5367221%2CCHEMBL5383697%2CCHEMBL5391086%2CCHEMBL5521837&standard_type=MIC&order_by=activity_id&limit=1000",
+    "https://www.ebi.ac.uk/chembl/api/data/activity.json?assay_chembl_id__in=CHEMBL5532781%2CCHEMBL5538826%2CCHEMBL5626538%2CCHEMBL5627304%2CCHEMBL5635927%2CCHEMBL6100512%2CCHEMBL6107202%2CCHEMBL6183251%2CCHEMBL897608%2CCHEMBL957952%2CCHEMBL973915%2CCHEMBL997426%2CCHEMBL997432&standard_type=MIC&order_by=activity_id&limit=1000"
+  ],
+  "queried_assays": 2993,
+  "selected_assays": 73,
+  "activity_records": 989,
+  "sha256": {
+    "activities.json.gz": "5fcfeac1139af8028aeed689eb341ac9f5d26904d04c2e6bd406aa95f1054c50",
+    "assays.json.gz": "6ba35c89eccb48976aa2c5eba254eadb3aafb6de1b52a8d89b19ab76cf7246bb"
+  }
+}
